@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Navbar user={loggedIn} setUser={setUserLoggedIn} />
       <Routes>
-        <Route path="/" element={<LandingPage />}></Route>
+        <Route path="/Project" element={<LandingPage />}></Route>
         <Route path="/StartUps" element={<StartUpPage />} />
         <Route path="/KnowMore" element={<KnowMorePage />} />
         <Route path="/Donate" element={<Donate />} />
