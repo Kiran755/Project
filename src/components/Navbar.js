@@ -15,7 +15,7 @@ const Navbar = ({ user, setUser }) => {
                 <i className="fa-solid fa-bars"></i>
             </label>
             <ul>
-                <li><NavLink to="/">Home</NavLink></li>
+                <li><NavLink to="/Project">Home</NavLink></li>
                 <li><NavLink to="/StartUps">StartUps</NavLink></li>
                 <li><NavLink to="/KnowMore">Know More</NavLink></li>
                 <li><NavLink to="/Donate">Donate</NavLink></li>
