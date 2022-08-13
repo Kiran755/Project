@@ -1,0 +1,70 @@
+.Form {
+    border: 1px solid black;
+    width: 90vw;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.Form>form {
+    border: 1px solid black;
+    padding: 10px;
+    width: 80vw;
+    max-width: 80vw;
+    text-align: left;
+}
+
+.personal-details {
+    width: 75vw;
+}
+
+.personal-details input {
+    border: 1px solid black;
+    width: 60vw;
+    max-width: 250px;
+}
+
+.personal-details {
+    padding: 10px 0px;
+}
+
+.group {
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.group span {
+    width: 150px;
+    /* border: 1px solid black; */
+    margin-right: 10px;
+    padding: 10px;
+
+
+}
+
+.group input {
+    max-width: 900px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.group>textarea {
+    resize: none;
+}
+
+@media (max-width:950px) {
+    .group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .group input {
+        font-size: 15px;
+        width: 60vw;
+        max-width: 60vw;
+    }
+}

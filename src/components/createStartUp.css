@@ -1,0 +1,27 @@
+.container {
+    margin: 0 auto;
+    max-width: 90vw;
+    width: 100%;
+    border: 1px solid blue;
+}
+
+.button-group {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.button-group button {
+    margin: 10px;
+    padding: 10px;
+    max-width: 200px;
+    width: 100%;
+}
+
+/* @media (max-width:950px) {
+    .container {
+        width: 60vh;
+    }
+} */

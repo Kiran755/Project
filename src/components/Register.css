@@ -1,0 +1,60 @@
+.Register_Box {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 89.3vh;
+}
+
+body {
+    background-image: linear-gradient(to right, #141e30, #243b55);
+}
+
+.userCredentials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    color: white;
+    width: 300px;
+    height: 300px;
+}
+
+.userCredentials label {
+    text-align: left;
+    margin: 10px;
+    min-width: 240px;
+}
+
+.userCredentials input {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.userCredentials button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 250px;
+}
+
+.User {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.User button {
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+}
+
+.User {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+}
